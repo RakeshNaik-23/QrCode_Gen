@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    content: '';
+    background-image: url(https://media.istockphoto.com/id/636761588/photo/used-brushes-on-an-artists-palette-of-colorful-oil-paint.jpg?s=612x612&w=0&k=20&c=38YQxVJVWnNfvGtlb7AXMx_ItyHZMEdmWenNkWNQ91g=);
+    background-repeat: no-repeat;
+    background-size:100% 700px;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#qrcode{
+    text-align: center;
+    position:relative;
+    top: 20vh;
+    width: 420px;
+    height: 500px;
+    /* border: 2px solid black;
+    border-radius: 20px; */
+    transition: all 3s;
+}
+
+h1{
+    font-size: 2em;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    font-style: oblique;
+    box-shadow: 10px 10px 15px white;
+    position: relative;
+    top: 15px;
+    transition: all 3s;
+
+}
+
+#url{
+    border-radius: 5px;
+    color: red;
+    font-size: 1.2em;
+    font-weight: bolder;
+    position: relative;
+    top: 15px;
+    transition: all 3s;
+
+}
+
+.btn{
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: rgb(3, 3, 15);
+    border-radius: 5px;
+    position: relative;
+    top: 15px;
+    transition: all 3s;
+
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 10px black;
+    position: relative;
+    top: 15px;
+    transition: all 3s;
+
+}
+
+/* background-image: url(https://fps.cdnpk.net/home/cover/image-7.jpg?w=1400); */
+
+
+@media (min-width:0px) and (max-width:320px){
+
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #qrcode{
+        text-align: center;
+        position:relative;
+        top: 20vh;
+        width: 100px;
+        height: 150px;
+        /* border: 2px solid black;
+        border-radius: 20px; */
+        transition: all 1s;
+    }
+    
+    h1{
+        font-size: 0.55em;
+        width: 120px;
+        font-weight: bolder;
+        color: rgba(255, 0, 0, 0.696);
+        background-color: rgb(254, 254, 254);
+        border-radius: 30px;
+        font-style: oblique;
+        box-shadow: 10px 10px 15px white;
+        position: relative;
+        top: 5px;
+        transition: all 1s;
+    }
+    
+    #url{
+        border-radius: 5px;
+        color: red;
+        width: 90px;
+        font-size: 0.5em;
+        font-weight: bolder;
+        position: relative;
+        top: 2px;
+        transition: all 1s;
+    }
+    
+    .btn{
+        height: 15px;
+        width: 50px;
+        font-size: 0.4em;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        position: relative;
+        top: 2px;
+        transition: all 1s;
+    }
+    
+    img{
+        height: 100px;
+        width: 100px;
+        border-radius: 20px;
+        box-shadow: 15px 15px 10px black;
+        position: relative;
+        top: 1px;
+        transition: all 1s;
+    }
+    
+}
+
+
+@media (max-width:480px){
+
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #qrcode{
+        text-align: center;
+        position:relative;
+        top: 20vh;
+        width: 200px;
+        height: 250px;
+        /* border: 2px solid black;
+        border-radius: 20px; */
+        transition: all 2s;
+    }
+    
+    h1{
+        font-size: 1em;
+        color:orange;
+        background-color: rgb(60, 44, 44);
+        border-radius: 30px;
+        font-style: oblique;
+        box-shadow: 10px 10px 15px white;
+        position: relative;
+        top: 5px;
+        transition: all 2s;
+    }
+    
+    #url{
+        border-radius: 5px;
+        color:green;
+        width: 150px;
+        font-size: 0.9em;
+        font-weight: bolder;
+        position: relative;
+        top: 5px;
+        transition: all 2s;
+    }
+    
+    .btn{
+        height: 25px;
+        width: 80px;
+        font-size: 0.7em;
+        color: rgb(6, 174, 246);
+        background-color: rgb(49, 0, 194);
+        border-radius: 5px;
+        position: relative;
+        top: 5px;
+        transition: all 2s;
+    }
+    
+    img{
+        height: 150px;
+        width: 150px;
+        border-radius: 20px;
+        box-shadow: 15px 15px 10px black;
+        position: relative;
+        top: 5px;
+        transition: all 2s;
+    }
+    
+}
+
+
+/*@media (min-width:0px) and (max-width:300px){
+
+    #qrcode{
+        height: 100px;
+        width: 200px;
+        
+    }
+    img{
+        height: 100px;
+        width: 100px;
+    }
+
+} */
